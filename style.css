@@ -1,0 +1,128 @@
+
+/* Basic page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f5f8;
+    color: #222222;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Navigation menu using Flexbox */
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    background-color: #17365d;
+    padding: 16px;
+}
+
+/* Navigation links */
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+/* Hover effect for links */
+nav a:hover {
+    background-color: #3674a8;
+    text-decoration: underline;
+}
+
+/* Main content area */
+#main-content {
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #d5dce5;
+    border-radius: 8px;
+}
+
+/* Heading styles */
+h1 {
+    color: #17365d;
+    border-bottom: 2px solid #3674a8;
+    padding-bottom: 8px;
+}
+
+h2 {
+    color: #24527a;
+    margin-top: 25px;
+}
+
+/* Highlight important information */
+.highlight {
+    background-color: #e8f2ff;
+    border-left: 4px solid #3674a8;
+    padding: 12px;
+}
+
+/* Image styling */
+img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #d5dce5;
+    border-radius: 6px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th,
+td {
+    border: 1px solid #b8c4d1;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #17365d;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f5f8;
+}
+
+/* List spacing */
+li {
+    margin-bottom: 8px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #17365d;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 25px;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+/* Small-screen layout */
+@media (max-width: 600px) {
+    #main-content {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    table {
+        font-size: 14px;
+    }
+}
