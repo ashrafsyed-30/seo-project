@@ -26,7 +26,6 @@ nav a {
     border-radius: 4px;
 }
 
-/* Hover effect for links */
 nav a:hover {
     background-color: #3674a8;
     text-decoration: underline;
@@ -110,6 +109,87 @@ footer a {
     color: #ffffff;
 }
 
+/* Quiz questions */
+.question {
+    background-color: #f8fafc;
+    border: 1px solid #d5dce5;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.question h3 {
+    color: #17365d;
+    margin-top: 0;
+}
+
+.question label {
+    display: block;
+    padding: 7px 0;
+    cursor: pointer;
+}
+
+.question input[type="text"] {
+    padding: 10px;
+    width: 90%;
+    max-width: 400px;
+    border: 1px solid #b8c4d1;
+    border-radius: 5px;
+}
+
+/* Countdown timer */
+#timer {
+    background-color: #e8f2ff;
+    color: #17365d;
+    padding: 15px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+/* Quiz buttons */
+button {
+    background-color: #17365d;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin: 10px 8px 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #3674a8;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Quiz results */
+#results {
+    margin-top: 25px;
+}
+
+.feedback {
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 6px;
+}
+
+/* Correct answers */
+.correct {
+    background-color: #e2f5e5;
+    color: #17642a;
+}
+
+/* Incorrect answers */
+.incorrect {
+    background-color: #ffe5e5;
+    color: #a51c1c;
+}
+
 /* Small-screen layout */
 @media (max-width: 600px) {
     #main-content {
@@ -124,5 +204,9 @@ footer a {
 
     table {
         font-size: 14px;
+    }
+
+    .question {
+        padding: 15px;
     }
 }

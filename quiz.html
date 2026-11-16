@@ -1,0 +1,257 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SEO Knowledge Quiz | SEO Project</title>
+
+    <meta name="description"
+          content="Test your knowledge of SEO with ten questions.">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="quiz.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Navigation menu -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="on-page-seo.html">On-Page SEO</a>
+        <a href="technical-seo.html">Technical SEO</a>
+        <a href="key-concepts.html">Key Concepts</a>
+        <a href="references.html">References</a>
+        <a href="quiz.html">SEO Quiz</a>
+        <a href="about.html">About</a>
+    </nav>
+
+    <main id="main-content">
+
+        <h1>SEO Knowledge Quiz</h1>
+
+        <p>
+            Welcome to the SEO quiz! This quiz will help you
+            check what you learned from this website.
+        </p>
+
+        <p>
+            There are 10 questions. Each question is worth
+            one point. You have 10 minutes to finish.
+        </p>
+
+        <!-- Quiz timer -->
+        <h2 id="timer">Time Left: 10:00</h2>
+
+        <!-- Quiz form -->
+        <form id="seoQuiz">
+
+            <!-- Question 1: Fill in the blank -->
+            <div class="question">
+                <h3>Question 1</h3>
+                <p>What does SEO stand for?</p>
+
+                <input type="text" id="q1"
+                       placeholder="Enter your answer">
+            </div>
+
+            <!-- Question 2: Fill in the blank -->
+            <div class="question">
+                <h3>Question 2</h3>
+                <p>What is unpaid search traffic called?</p>
+
+                <input type="text" id="q2"
+                       placeholder="Enter your answer">
+            </div>
+
+            <!-- Question 3: Multiple choice -->
+            <div class="question">
+                <h3>Question 3</h3>
+                <p>What is the main goal of SEO?</p>
+
+                <label>
+                    <input type="radio" name="q3" value="a">
+                    Increase website visibility
+                </label>
+
+                <label>
+                    <input type="radio" name="q3" value="b">
+                    Delete webpages
+                </label>
+
+                <label>
+                    <input type="radio" name="q3" value="c">
+                    Block search engines
+                </label>
+            </div>
+
+            <!-- Question 4: Multiple choice -->
+            <div class="question">
+                <h3>Question 4</h3>
+                <p>Which is an example of on-page SEO?</p>
+
+                <label>
+                    <input type="radio" name="q4" value="a">
+                    Buying advertisements
+                </label>
+
+                <label>
+                    <input type="radio" name="q4" value="b">
+                    Improving page titles
+                </label>
+
+                <label>
+                    <input type="radio" name="q4" value="c">
+                    Printing flyers
+                </label>
+            </div>
+
+            <!-- Question 5: Multiple choice -->
+            <div class="question">
+                <h3>Question 5</h3>
+                <p>What is an XML sitemap used for?</p>
+
+                <label>
+                    <input type="radio" name="q5" value="a">
+                    Changing website colors
+                </label>
+
+                <label>
+                    <input type="radio" name="q5" value="b">
+                    Creating advertisements
+                </label>
+
+                <label>
+                    <input type="radio" name="q5" value="c">
+                    Helping search engines discover pages
+                </label>
+            </div>
+
+            <!-- Question 6: Multiple selection -->
+            <div class="question">
+                <h3>Question 6</h3>
+                <p>Which practices can help improve SEO?</p>
+                <p>Select all correct answers.</p>
+
+                <label>
+                    <input type="checkbox" name="q6" value="a">
+                    Useful content
+                </label>
+
+                <label>
+                    <input type="checkbox" name="q6" value="b">
+                    Mobile-friendly design
+                </label>
+
+                <label>
+                    <input type="checkbox" name="q6" value="c">
+                    Clear headings
+                </label>
+
+                <label>
+                    <input type="checkbox" name="q6" value="d">
+                    Keyword stuffing
+                </label>
+            </div>
+
+            <!-- Question 7: True or False -->
+            <div class="question">
+                <h3>Question 7</h3>
+                <p>PPC advertising and organic SEO are the same.</p>
+
+                <label>
+                    <input type="radio" name="q7" value="true">
+                    True
+                </label>
+
+                <label>
+                    <input type="radio" name="q7" value="false">
+                    False
+                </label>
+            </div>
+
+            <!-- Question 8: True or False -->
+            <div class="question">
+                <h3>Question 8</h3>
+                <p>Mobile-friendly design can support SEO.</p>
+
+                <label>
+                    <input type="radio" name="q8" value="true">
+                    True
+                </label>
+
+                <label>
+                    <input type="radio" name="q8" value="false">
+                    False
+                </label>
+            </div>
+
+            <!-- Question 9: Multiple choice -->
+            <div class="question">
+                <h3>Question 9</h3>
+                <p>What is a keyword?</p>
+
+                <label>
+                    <input type="radio" name="q9" value="a">
+                    A website password
+                </label>
+
+                <label>
+                    <input type="radio" name="q9" value="b">
+                    A word or phrase people search for
+                </label>
+
+                <label>
+                    <input type="radio" name="q9" value="c">
+                    A programming error
+                </label>
+            </div>
+
+            <!-- Question 10: Multiple choice -->
+            <div class="question">
+                <h3>Question 10</h3>
+                <p>What does local SEO help businesses do?</p>
+
+                <label>
+                    <input type="radio" name="q10" value="a">
+                    Remove their address
+                </label>
+
+                <label>
+                    <input type="radio" name="q10" value="b">
+                    Hide from customers
+                </label>
+
+                <label>
+                    <input type="radio" name="q10" value="c">
+                    Reach nearby customers
+                </label>
+            </div>
+
+            <!-- Quiz buttons -->
+            <button type="submit">Submit Quiz</button>
+
+            <button type="button" id="resetBtn">
+                Retake Quiz
+            </button>
+
+        </form>
+
+        <!-- JavaScript will display quiz results here -->
+        <section id="results" aria-live="polite"></section>
+
+    </main>
+
+    <footer>
+        <p>This website was created for IT 3203.</p>
+        <p>
+            <a href="https://ksuweb.github.io/IT3203/">
+                IT 3203 Course Website
+            </a>
+        </p>
+    </footer>
+
+</body>
+</html>
